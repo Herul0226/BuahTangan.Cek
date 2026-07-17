@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuahTangan.Cek</title>
+    <meta name="description"
+        content="Tas rajutan, gantungan kunci, dan aksesoris rajut handmade berkualitas tinggi. Unik, lucu, bisa custom. Cocok untuk hadiah, koleksi pribadi, atau dipakai sehari-hari.">
+    <meta property="og:title" content="Rajut Cantik - Handmade Crochet & Knit">
+    <meta property="og:description" content="Premium handmade crochet products made with love and quality materials.">
+    <meta name="theme-color" content="#001F5C">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <div class="logo">
+                <img src="assest/logo.png" alt="Logo BuahTangan.Cek">
+                <span>BuahTangan.Cek</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-page="home">Beranda</a></li>
+                <li><a href="#tentang" class="nav-link" data-page="tentang">Tentang</a></li>
+                <li><a href="#katalog" class="nav-link" data-page="katalog">Katalog</a></li>
+                <li><a href="#galeri" class="nav-link" data-page="galeri">Galeri</a></li>
+                <li><a href="#faq" class="nav-link" data-page="faq">FAQ</a></li>
+                <li><a href="#kontak" class="nav-link" data-page="kontak">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Pages Container -->
+    <main class="pages-container">
+        <!-- HOME PAGE -->
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="container hero-content">
+                    <div class="hero-text">
+                        <p class="subtitle">Handmade Crochet Collection</p>
+                        <h1>Rajutan Berkualitas dengan Sentuhan Handmade</h1>
+                        <p class="description">Produk rajut handmade berkualitas tinggi yang dibuat dengan teliti
+                            menggunakan benang pilihan. Cocok untuk hadiah, koleksi pribadi, atau dipakai sehari-hari.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" id="whatsappHero">
+                                <i class="fab fa-whatsapp"></i> Hubungi via WhatsApp
+                            </button>
+                            <button class="btn btn-outline" onclick="navigatePage('katalog')">
+                                Lihat Katalog <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assest/papan-depan.jpg" alt="Crochet Products">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advantages Section -->
+            <section class="advantages">
+                <div class="container">
+                    <h2>Keunggulan Kami</h2>
+                    <div class="advantages-grid">
+                        <div class="advantage-card">
+                            <i class="fas fa-heart"></i>
+                            <h3>Handmade 100%</h3>
+                            <p>Setiap produk dibuat dengan tangan dengan penuh perhatian dan dedikasi</p>
+                        </div>
+                        <div class="advantage-card">
+                            <i class="fas fa-palette"></i>
+                            <h3>Custom Order</h3>
+                            <p>Kami menerima pesanan custom sesuai warna, ukuran, dan desain pilihan Anda</p>
+                        </div>
+                        <div class="advantage-card">
+                            <i class="fas fa-star"></i>
+                            <h3>Benang Premium</h3>
+                            <p>Menggunakan benang pilihan berkualitas tinggi yang nyaman dan tahan lama</p>
+                        </div>
+                        <div class="advantage-card">
+                            <i class="fas fa-truck"></i>
+                            <h3>Pengiriman Aman</h3>
+                            <p>Siap mengirim ke seluruh Indonesia dengan kemasan yang aman dan rapi</p>
+                        </div>
+                        <div class="advantage-card">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Dibuat Teliti</h3>
+                            <p>Setiap jahitan dan detail diperhatikan dengan seksama untuk kepuasan Anda</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Products -->
+            <section class="featured-products">
+                <div class="container">
+                    <h2>Produk Unggulan</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assest/tas.jpg" alt="Elegant Tote Bag">
+                                <span class="badge badge-ready">Ready Stock</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Elegant Tote Bag</h3>
+                                <p>Tas tote luas untuk keseharian yang elegan</p>
+                                <p class="price">Rp 350.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="assest/tas.jpg" alt="Minimalist Crossbody">
+                                <span class="badge badge-ready">Ready Stock</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Minimalist Crossbody Bag</h3>
+                                <p>Tas selempang kompak untuk gaya mobile</p>
+                                <p class="price">Rp 280.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1590080876-a371a6b6b053?w=300&h=300&fit=crop"
+                                    alt="Amigurumi Bunny">
+                                <span class="badge badge-ready">Ready Stock</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Soft Amigurumi Bunny</h3>
+                                <p>Boneka amigurumi kelinci yang menggemaskan</p>
+                                <p class="price">Rp 150.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1590080876-a371a6b6b053?w=300&h=300&fit=crop"
+                                    alt="Classic Beanie">
+                                <span class="badge badge-preorder">Pre-Order</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Classic Beanie</h3>
+                                <p>Topi rajutan nyaman untuk segala musim</p>
+                                <p class="price">Rp 120.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1590080876-a371a6b6b053?w=300&h=300&fit=crop"
+                                    alt="Delicate Keychain">
+                                <span class="badge badge-ready">Ready Stock</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Delicate Keychain</h3>
+                                <p>Gantungan kunci mini yang menggemaskan</p>
+                                <p class="price">Rp 45.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image">
+                                <img src="https://images.unsplash.com/photo-1590080876-a371a6b6b053?w=300&h=300&fit=crop"
+                                    alt="Cozy Blanket">
+                                <span class="badge badge-preorder">Pre-Order</span>
+                            </div>
+                            <div class="product-info">
+                                <h3>Cozy Blanket</h3>
+                                <p>Selimut besar yang nyaman dan hangat</p>
+                                <p class="price">Rp 750.000</p>
+                                <div class="product-buttons">
+                                    <button class="btn btn-small btn-outline">Lihat Detail</button>
+                                    <button class="btn btn-small btn-primary">Pesan</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section">
+                <div class="container">
+                    <h2>Tertarik dengan Produk Kami?</h2>
+                    <p>Hubungi kami melalui WhatsApp untuk informasi lebih lanjut, custom order, atau pertanyaan apapun.
+                    </p>
+                    <button class="btn btn-primary btn-large" id="whatsappCta">
+                        <i class="fab fa-whatsapp"></i> Chat dengan Kami
+                    </button>
+                </div>
+            </section>
+        </section>
+
+        <!-- TENTANG PAGE -->
+        <section id="tentang" class="page">
+            <div class="container page-content">
+                <h1>Tentang Kami</h1>
+                <p class="subtitle-text">Mengenal lebih dekat tentang usaha handmade crochet kami</p>
+
+                <div class="about-section">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1590080876-a371a6b6b053?w=500&h=400&fit=crop"
+                            alt="About Us">
+                    </div>
+                    <div class="about-text">
+                        <h2>Sejarah Kami</h2>
+                        <p>Kami memulai perjalanan ini dengan passion untuk menciptakan produk handmade berkualitas
+                            tinggi. Setiap rajutan dibuat dengan teliti menggunakan benang pilihan dan perhatian
+                            terhadap detail.</p>
+                        <p>Dengan pengalaman bertahun-tahun, kami telah mengembangkan teknik dan standar kualitas yang
+                            ketat untuk memastikan setiap produk memenuh ekspektasi pelanggan.</p>
+                    </div>
+                </div>
+
+                <div class="values-section">
+                    <h2>Nilai-Nilai Kami</h2>
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <h3>Kualitas</h3>
+                            <p>Kami berkomitmen untuk memberikan produk berkualitas premium dengan keahlian tangan yang
+                                terbaik</p>
+                        </div>
+                        <div class="value-card">
+                            <h3>Integritas</h3>
+                            <p>Transparansi dan kejujuran adalah fondasi hubungan kami dengan setiap pelanggan</p>
+                        </div>
+                        <div class="value-card">
+                            <h3>Inovasi</h3>
+                            <p>Kami terus mengembangkan desain dan teknik baru untuk menghadirkan produk yang fresh dan
+                                menarik</p>
+                        </div>
+                        <div class="value-card">
+                            <h3>Kepuasan Pelanggan</h3>
+                            <p>Kepuasan Anda adalah prioritas utama kami dalam setiap transaksi dan interaksi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ PAGE -->
+        <section id="faq" class="page">
+            <div class="container page-content">
+                <h1>FAQ</h1>
+                <p class="subtitle-text">Pertanyaan yang sering diajukan</p>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Berapa lama proses pengerjaan?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Proses pengerjaan bervariasi tergantung kerumitan produk, biasanya memakan waktu 3-7 hari
+                                kerja untuk produk ready stock yang perlu penyesuaian kecil, dan 1-3 minggu untuk custom order.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Bisa kirim seluruh Indonesia?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ya, kami mengirim ke seluruh Indonesia! Ongkos kirim akan dihitung berdasarkan berat
+                                produk dan lokasi tujuan. Kami menggunakan jasa kurir terpercaya untuk memastikan produk
+                                sampai dengan aman.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Metode pembayaran?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Kami menerima berbagai metode pembayaran termasuk transfer bank, e-wallet, dan COD untuk
+                                area tertentu. Diskusikan pilihan pembayaran yang paling nyaman untuk Anda melalui
+                                WhatsApp.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Bisa request warna?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Tentu! Kami memiliki berbagai pilihan warna benang. Jika Anda menginginkan warna khusus,
+                                silakan tanyakan ketersediaan melalui WhatsApp. Kami akan membantu Anda menemukan warna
+                                yang sempurna.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-cta">
+                    <h3>Masih Ada Pertanyaan?</h3>
+                    <p>Jangan ragu untuk menghubungi kami melalui WhatsApp. Tim kami siap membantu Anda!</p>
+                    <button class="btn btn-primary" id="whatsappFaq">
+                        <i class="fab fa-whatsapp"></i> Chat dengan Kami
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAK PAGE -->
+        <section id="kontak" class="page">
+            <div class="container page-content">
+                <h1>Kontak</h1>
+                <p class="subtitle-text">Hubungi kami untuk informasi lebih lanjut atau pertanyaan apapun</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p><a href="https://wa.me/6281234567890">+62 812 3456 7890</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@crochet.com">info@crochet.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Lokasi</h3>
+                                <p>Jakarta, Indonesia</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Jam Operasional</h3>
+                                <p>Senin - Jumat: 09:00 - 18:00<br>Sabtu: 10:00 - 16:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h3>Ikuti Kami</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281234567890" class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BuahTangan.Cek</h3>
+                    <p>Premium handmade crochet products dibuat dengan teliti menggunakan benang pilihan berkualitas
+                        tinggi.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home" onclick="navigatePage('home')">Beranda</a></li>
+                        <li><a href="#tentang" onclick="navigatePage('tentang')">Tentang</a></li>
+                        <li><a href="#katalog" onclick="navigatePage('katalog')">Katalog</a></li>
+                        <li><a href="#galeri" onclick="navigatePage('galeri')">Galeri</a></li>
+                        <li><a href="#faq" onclick="navigatePage('faq')">FAQ</a></li>
+                        <li><a href="#kontak" onclick="navigatePage('kontak')">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-phone"></i> +62 812 3456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@crochet.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BuahTangan.Cek Handmade Crochet Collection. All rights reserved.</p>
+                <p>Crafted with love and passion</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
